@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/getData/:path*", "destination": "http://100.117.158.50:3000/getData/:path*" },
-    { "source": "/cameras", "destination": "http://100.117.158.50:3000/cameras" },
+    { "source": "/getData/:path*", "destination": "https://CCTVlive.stackenzo.com/getData/:path*" },
+    { "source": "/cameras", "destination": "https://CCTVlive.stackenzo.com/cameras" },
     { "source": "/notifications/:path*", "destination": "http://100.117.158.50:3000/notifications/:path*" },
     { "source": "/((?!assets/).*)", "destination": "/index.html" }
   ]

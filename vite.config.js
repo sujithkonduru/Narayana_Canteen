@@ -18,13 +18,13 @@ export default defineConfig({
     server: {
         proxy: {
             '/api': {
-                target: 'http://100.117.158.50:3000',
+                target: 'https://CCTVlive.stackenzo.com',
                 changeOrigin: true,
                 secure: false,
                 rewrite: (path) => path.replace(/^\/api/, ''),
             },
             '/getData': {
-                target: 'http://100.117.158.50:3000',
+                target: 'https://CCTVlive.stackenzo.com',
                 changeOrigin: true,
                 secure: false,
             },
